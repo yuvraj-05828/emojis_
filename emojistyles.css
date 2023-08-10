@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+
+
+h1{
+    font-family: 'Cedarville Cursive', cursive;
+    text-align:center;
+}
+    body{
+        background: rgb(98, 158, 158);
+    }
+    .emoji-face{
+        background:rgb(213, 176, 44);
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        box-shadow: 2px 0px 2px 2px rgb(0, 0, 0);
+        position:relative;
+    }
+    .eye1{
+        background-color:white;
+        height: 15px;
+        width: 9px;
+        border-radius: 50%;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+    .eye2{
+        background-color: black;
+        height: 15px;
+        width: 9px;
+        border-radius: 50%;
+        position: absolute;
+        top: 30px;
+        left: 69px; 
+    }
+    .mouth{
+        background:rgb(175, 14, 14);
+        height: 36px;
+        width: 66px;
+        border-radius: 0 0 90px 90px;
+        position: absolute;
+        top: 52px;
+        left: 16px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .tongue{
+        background: white;
+        height: 30px;
+        width: 69px;
+        border-radius: 50%;
+        position: absolute;
+        top: 55%;
+        left: 0%;
+        z-index: 2;
+    }
+    .mouth-shock{
+        background: rgb(191, 103, 14);
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        position: absolute;
+        top: 55%;
+        left: 32%;
+        z-index: 2;
+    }
+    .mouth-speechless{
+        background: rgb(0, 0, 0);
+        height: 5px;
+        width: 69px;
+        border-radius: 0%;
+        position: absolute;
+        top: 69%;
+        left: 15.4%;
+        z-index: 2;   
+    }
+    .emoji-face{
+        float: left;
+        margin: 0px 23px 0px 0px;
+    }
+    .wrapper{
+        position:absolute;
+        top: 150px;
+        left:575px;
+    }
+    #heading{
+        text-align: center;
+        font-size: 4em;
+    }
+    p{
+        text-align: center;
+        font-size:1.12em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    .emoji-face:hover{
+        background: moccasin;
+        transform: scale(1.15);
+    }
+    .write-up{
+        background-color: azure;
+        padding: 5% 10%;
+        margin: 10% 20%;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+
+    
